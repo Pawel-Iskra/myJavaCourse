@@ -35,6 +35,7 @@ public class App {
         book2.setPages(304);
         book2.setBookshelf("15/C");
 
+        hibernateService.addBook(book1);
         hibernateService.addBook(book2);
 
         System.out.println("\nPobieranie książki po tytule -> Weidźmin 2:");
