@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+</head>
+    <body>
+        <h2>Temperature Converter</h2>
+        <form action="/tc" method="post">
+            <h3>Provide data:</h3>
+            Value: <input type="text" name="value" placeholder="0">
+
+            <h4>Select input unit:</h4>
+            Celsius degrees <input type="radio" name="inUnit" value="Celsius degrees" checked="checked"> <br>
+            Fahrenheit degrees <input type="radio" name="inUnit" value="Fahrenheit degrees"> <br>
+            Kelvin degrees <input type="radio" name="inUnit" value="Kelvin degrees"> <br>
+            Newton degrees <input type="radio" name="inUnit" value="Newton degrees"> <br>
+            Delisle degrees <input type="radio" name="inUnit" value="Delisle degrees"> <br>
+
+            <h4>Select output unit:</h4>
+            Celsius degrees <input type="radio" name="outUnit" value="Celsius degrees" checked="checked"> <br>
+            Fahrenheit degrees <input type="radio" name="outUnit" value="Fahrenheit degrees"> <br>
+            Kelvin degrees <input type="radio" name="outUnit" value="Kelvin degrees"> <br>
+            Newton degrees <input type="radio" name="outUnit" value="Newton degrees"> <br>
+            Delisle degrees <input type="radio" name="outUnit" value="Delisle degrees"> <br>
+
+            <br><input type="submit" value="Calculate">
+
+        </form>
+    </body>
+</html>
